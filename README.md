@@ -42,7 +42,7 @@ Phishing is a cybercrime where attackers attempt to obtain sensitive information
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use: venv\Scripts\activate
-3.**Install the Required Packages:**
+3. **Install the Required Packages:**
 
     '''bash
     pip install -r requirements.txt
