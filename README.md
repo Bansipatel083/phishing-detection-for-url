@@ -44,7 +44,7 @@ Phishing is a cybercrime where attackers attempt to obtain sensitive information
     source venv/bin/activate  # On Windows use: venv\Scripts\activate
 3. **Install the Required Packages:**
 
-    '''bash
+    ```bash
     pip install -r requirements.txt
 
 ## Usage
@@ -53,9 +53,8 @@ Enter a URL in the input field and click "Check URL".
 The application will display whether the URL is phishing or not.
 ## Project Structure
     python
-    '''bash
-    phishing-url-detection/
-    │             # Main Flask application file
+    ```bash
+    phishing-url-detection/       
     ├── data/
     │   └── phishing_dataset.csv  # Dataset file (replace with your actual dataset) # Saved trained model 
     ├── model/
@@ -81,15 +80,9 @@ Phishing: http://secure-update-paypal.com/login
 Non-Phishing: https://www.amazon.com
 ## Contributing
 Contributions are welcome! If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
-
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
 Created and maintained by Bansi Patel. If you have any questions or suggestions, feel free to open an issue or contact directly.
-
-vbnet
-Copy code
-
 ### **Key Additions:**
 - The README now explicitly credits Bansi Patel as the author and creator of the project.
 - The contact section invites users to reach out with questions or suggestions, reflecting the personal involvement in the project.
