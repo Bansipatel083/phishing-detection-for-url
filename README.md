@@ -52,7 +52,7 @@ Open the web application in your browser.
 Enter a URL in the input field and click "Check URL".
 The application will display whether the URL is phishing or not.
 ## Project Structure
-    python
+python
     ```bash
     phishing-url-detection/       
     ├── data/
