@@ -1,0 +1,11 @@
+url,label
+"http://example.com",0
+"https://secure.example.com",0
+"http://login.example.com",1
+"https://paypal.com",0
+"http://phishing.example.com",1
+"https://login.bank.com",1
+"http://example.com/login",1
+"https://www.example.com",0
+"http://secure-login.example.com",1
+"https://www.mybank.com",0
