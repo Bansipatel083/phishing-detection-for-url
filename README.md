@@ -53,8 +53,6 @@ Enter a URL in the input field and click "Check URL".
 The application will display whether the URL is phishing or not.
 ## Project Structure
 
-    
-    ```bash
     phishing-url-detection/       
     ├── data/
     │   └── phishing_dataset.csv     # Dataset file
