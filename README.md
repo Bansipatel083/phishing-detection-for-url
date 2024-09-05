@@ -1,6 +1,6 @@
 # Phishing URL Detection Tool
 
-Developed by **Bansi Patel**, this project is a machine learning-based tool designed to detect phishing URLs. It uses a combination of feature extraction and a Naive Bayes classifier to determine whether a given URL is phishing or legitimate. The tool is built using Python, Scikit-learn, Flask, and other essential libraries.
+This project is a machine learning-based tool designed to detect phishing URLs. It uses a combination of feature extraction and a Naive Bayes classifier to determine whether a given URL is phishing or legitimate. The tool is built using Python, Scikit-learn, Flask, and other essential libraries.
 
 ## **Table of Contents**
 - [Introduction](#introduction)
@@ -16,7 +16,7 @@ Developed by **Bansi Patel**, this project is a machine learning-based tool desi
 - [License](#license)
 
 ## **Introduction**
-Phishing is a cybercrime where attackers attempt to obtain sensitive information such as usernames, passwords, and credit card details by disguising themselves as trustworthy entities. This tool, created by Bansi Patel, helps detect such phishing attempts by analyzing the URLs using machine learning techniques.
+Phishing is a cybercrime where attackers attempt to obtain sensitive information such as usernames, passwords, and credit card details by disguising themselves as trustworthy entities. This tool, created to, helps detect such phishing attempts by analyzing the URLs using machine learning techniques.
 
 ## **Features**
 - Detects phishing URLs using a trained machine learning model.
