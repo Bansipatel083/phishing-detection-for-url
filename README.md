@@ -51,7 +51,7 @@ Phishing is a cybercrime where attackers attempt to obtain sensitive information
 Open the web application in your browser.
 Enter a URL in the input field and click "Check URL".
 The application will display whether the URL is phishing or not.
-## Project Structure
+## Project Structure ##
     
     ```bash
     phishing-url-detection/       
