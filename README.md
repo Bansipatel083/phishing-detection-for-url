@@ -38,27 +38,17 @@ Phishing is a cybercrime where attackers attempt to obtain sensitive information
    https://github.com/Bansipatel083/phishing-detection-for-url.git
    cd phishing-detection-for-url
 2. **Create a Virtual Environment:**
-
-    ```bash
-    Copy code
     python -m venv venv
     source venv/bin/activate  # On Windows use: venv\Scripts\activate
 3.**Install the Required Packages:**
-
-    '''bash
-
     pip install -r requirements.txt
 
-
-
-The application will start running on http://127.0.0.1:5000/. Open this URL in your browser to access the tool.
 ## Usage
-    Open the web application in your browser.
-    Enter a URL in the input field and click "Check URL".
-    The application will display whether the URL is phishing or not.
+Open the web application in your browser.
+Enter a URL in the input field and click "Check URL".
+The application will display whether the URL is phishing or not.
 ## Project Structure
-    python
-    '''bash
+python path tree
     phishing-url-detection/
     │             # Main Flask application file
     ├── data/
