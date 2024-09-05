@@ -43,7 +43,7 @@ Phishing is a cybercrime where attackers attempt to obtain sensitive information
     python -m venv venv
     source venv/bin/activate  # On Windows use: venv\Scripts\activate
 3. **Install the Required Packages:**
-
+     
     ```bash
     pip install -r requirements.txt
 
@@ -52,21 +52,22 @@ Open the web application in your browser.
 Enter a URL in the input field and click "Check URL".
 The application will display whether the URL is phishing or not.
 ## Project Structure
+
     
     ```bash
     phishing-url-detection/       
     ├── data/
-    │   └── phishing_dataset.csv  # Dataset file (replace with your actual dataset) # Saved trained model 
+    │   └── phishing_dataset.csv     # Dataset file
     ├── model/
-    │   └── train_model.py        # Script for training the phishing detection model 
+    │   └── train_model.py           # Script for training the phishing detection model
     ├── static/
-    │   └── styles.css            # CSS file for styling the web page
+    │   └── styles.css               # CSS file for styling the web page
     ├── templates/
-    │   └── index.html            # HTML file for the weinterface
-    ├── app.py                    # Main Flask application file
-    ├── phishing_model.pkl        # Saved trained model
-    ├── requirements.txt          # List of required Python packages
-    └── README.md                 # Project documentation
+    │   └── index.html               # HTML file for the web interface
+    ├── app.py                       # Main Flask application file
+    ├── phishing_model.pkl           # Saved trained model
+    ├── requirements.txt             # List of required Python packages
+    └── README.md                    # Project documentation
 
 
 ## How It Works
